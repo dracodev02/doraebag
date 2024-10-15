@@ -1,11 +1,14 @@
 const KeyFeature = () => {
   return (
-    <div className="w-full max-w-desktop mx-auto flex flex-col gap-[87px] px-2">
+    <div
+      id="keyFeatures"
+      className="w-full max-w-desktop mx-auto flex flex-col gap-[87px] px-2 max-md:gap-10"
+    >
       <h3 className="font-semibold font-archivo text-white rounded-[7px] bg-primary text-[40px] leading-[44px] w-fit px-2">
         Key Features
       </h3>
-      <div className="grid grid-cols-3 place-items-center gap-10">
-        <div className="px-[35px] pt-10 w-[387px] h-[300px] rounded-[45px] border border-secondary shadow-box gap-7 flex flex-col">
+      <div className="flex flex-wrap items-center justify-center gap-10 max-md:gap-5">
+        <div className="px-[35px] max-md:p-5 pt-10 w-[380px] md:h-[300px] max-md:pb-10 rounded-[45px] border border-secondary hover:shadow-box transition-all gap-7 flex flex-col">
           <div>
             <p className="bg-primary w-fit rounded-[7px] px-2 font-semibold text-[30px] leading-[32px]">
               Lottery-Based
@@ -20,64 +23,64 @@ const KeyFeature = () => {
             A chance to win big with each draw.
           </p>
         </div>
-        <div className="px-[35px] pt-10 w-[387px] h-[300px] rounded-[45px] border border-secondary shadow-box gap-7 flex flex-col">
+        <div className="px-[35px] max-md:p-5 pt-10 w-[380px] md:h-[300px] max-md:pb-10 rounded-[45px] border border-secondary hover:shadow-box transition-all gap-7 flex flex-col">
           <div>
             <p className="bg-primary w-fit rounded-[7px] px-2 font-semibold text-[30px] leading-[32px]">
-              Lottery-Based
+              Flexible Staking
             </p>
             <p className="bg-primary w-fit rounded-[7px] px-2 font-semibold text-[30px] leading-[32px]">
-              Rewards
+              Options
             </p>
           </div>
 
           <div className="w-full bg-black h-[1px]"></div>
           <p className="text-[18px] leading-6 font-archivo text-black">
-            A chance to win big with each draw.
+            Stake as much or as little as you want, with no lock-up.
           </p>
         </div>
-        <div className="px-[35px] pt-10 w-[387px] h-[300px] rounded-[45px] border border-secondary shadow-box gap-7 flex flex-col">
+        <div className="px-[35px] max-md:p-5 pt-10 w-[380px] md:h-[300px] max-md:pb-10 rounded-[45px] border border-secondary hover:shadow-box transition-all gap-7 flex flex-col">
           <div>
             <p className="bg-primary w-fit rounded-[7px] px-2 font-semibold text-[30px] leading-[32px]">
-              Lottery-Based
+              Prize
             </p>
             <p className="bg-primary w-fit rounded-[7px] px-2 font-semibold text-[30px] leading-[32px]">
-              Rewards
+              Scaling
             </p>
           </div>
 
           <div className="w-full bg-black h-[1px]"></div>
           <p className="text-[18px] leading-6 font-archivo text-black">
-            A chance to win big with each draw.
+            The more you stake, the bigger your potential rewards.
           </p>
         </div>
-        <div className="px-[35px] pt-10 w-[387px] h-[300px] rounded-[45px] border border-secondary shadow-box gap-7 flex flex-col">
+        <div className="px-[35px] max-md:p-5 pt-10 w-[380px] md:h-[300px] max-md:pb-10 rounded-[45px] border border-secondary hover:shadow-box transition-all gap-7 flex flex-col">
           <div>
             <p className="bg-primary w-fit rounded-[7px] px-2 font-semibold text-[30px] leading-[32px]">
-              Lottery-Based
+              Instant
             </p>
             <p className="bg-primary w-fit rounded-[7px] px-2 font-semibold text-[30px] leading-[32px]">
-              Rewards
+              Withdrawal
             </p>
           </div>
 
           <div className="w-full bg-black h-[1px]"></div>
           <p className="text-[18px] leading-6 font-archivo text-black">
-            A chance to win big with each draw.
+            Withdraw your tokens anytime, no penalties.
           </p>
         </div>
-        <div className="px-[35px] pt-10 w-[387px] h-[300px] rounded-[45px] border border-secondary shadow-box gap-7 flex flex-col">
+        <div className="px-[35px] max-md:p-5 pt-10 w-[380px] md:h-[300px] max-md:pb-10 rounded-[45px] border border-secondary hover:shadow-box transition-all gap-7 flex flex-col">
           <div>
             <p className="bg-primary w-fit rounded-[7px] px-2 font-semibold text-[30px] leading-[32px]">
-              Lottery-Based
+              Comprehensive
             </p>
             <p className="bg-primary w-fit rounded-[7px] px-2 font-semibold text-[30px] leading-[32px]">
-              Rewards
+              Dashboard
             </p>
           </div>
 
           <div className="w-full bg-black h-[1px]"></div>
           <p className="text-[18px] leading-6 font-archivo text-black">
-            A chance to win big with each draw.
+            Track your staking, tickets, and prize history easily.
           </p>
         </div>
       </div>
