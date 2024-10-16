@@ -1,10 +1,10 @@
 const SectionWhyUs = () => {
   return (
     <div className="w-full max-w-desktop mx-auto px-2 flex flex-col gap-[87px] max-md:gap-10">
-      <h3 className="font-semibold font-archivo text-white rounded-[7px] bg-primary text-[40px] leading-[44px] w-fit px-2">
+      <h3 className="font-semibold in-view font-archivo text-white rounded-[7px] bg-primary text-[40px] leading-[44px] w-fit px-2">
         Why Us
       </h3>
-      <div className="bg-secondary text-white py-[70px] max-md:px-5 px-[60px] rounded-[45px] flex gap-6 max-md:flex-col">
+      <div className="bg-secondary in-view text-white py-[70px] max-md:px-5 px-[60px] rounded-[45px] flex gap-6 max-md:flex-col">
         <div className="flex flex-col gap-5 max-md:gap-2 md:hover:-mt-2 transition-all w-full">
           <p className="text-[30px] leading-8 font-semibold font-archivo">
             Exciting Lottery Rewards{" "}

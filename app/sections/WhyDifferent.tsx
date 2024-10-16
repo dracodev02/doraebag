@@ -1,10 +1,10 @@
 const WhyDifferent = () => {
   return (
     <div className="max-w-desktop mx-auto px-2 w-full flex flex-col gap-[87px] max-md:gap-10">
-      <h3 className="font-semibold font-archivo text-white rounded-[7px] bg-primary text-[40px] leading-[44px] w-fit px-2">
+      <h3 className="font-semibold in-view font-archivo text-white rounded-[7px] bg-primary text-[40px] leading-[44px] w-fit px-2">
         Why We Are Different
       </h3>
-      <div className="bg-secondary rounded-[45px] relative overflow-hidden">
+      <div className="bg-secondary in-view rounded-[45px] relative overflow-hidden">
         <div className="relative z-[2] max-md:py-10 pb-[77px] pt-12 md:max-w-[600px] pl-[52px] max-md:px-5">
           <img
             src="/message.png"

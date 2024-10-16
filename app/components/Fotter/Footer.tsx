@@ -32,33 +32,35 @@ const Footer = () => {
           </div>
           <div className="flex md:items-center gap-6 max-md:gap-2 text-white max-md:flex-col">
             <p
-              className="hover:underline cursor-pointer"
+              className="hover:no-underline hover-underline-animation-footer cursor-pointer"
               onClick={() => scrollToSection("about")}
             >
               About us
             </p>
             <p
-              className="hover:underline cursor-pointer"
+              className="hover:no-underline hover-underline-animation-footer cursor-pointer"
               onClick={() => scrollToSection("mechanism")}
             >
               Mechanism
             </p>
             <p
-              className="hover:underline cursor-pointer"
+              className="hover:no-underline hover-underline-animation-footer cursor-pointer"
               onClick={() => scrollToSection("keyFeatures")}
             >
               Key Features
             </p>
           </div>
           <div className="flex items-center gap-5 max-md:hidden">
-            <FaFacebook className="text-[30px] text-white" />
-            <FaSquareXTwitter className="text-[30px] text-white" />
+            <FaFacebook className="text-[30px] text-white cursor-pointer" />
+            <FaSquareXTwitter className="text-[30px] text-white cursor-pointer" />
           </div>
         </div>
         <div className="w-full h-[1px] bg-white"></div>
         <div className="flex items-center gap-10 text-white flex-wrap gap-y-2">
           <p> © 2024 doraEbag. All Rights Reserved.</p>
-          <p>Privacy Policy</p>
+          <p className="hover-underline-animation-footer cursor-pointer hover:no-underline">
+            Privacy Policy
+          </p>
         </div>
       </div>
     </div>

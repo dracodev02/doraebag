@@ -28,7 +28,7 @@ body {
   position: absolute;
   width: 100%;
   transform: scaleX(0);
-  height: 3px;
+  height: 2px;
   background-color: #191a23;
   bottom: 0px;
   left: 0;
@@ -39,4 +39,41 @@ body {
   transform: scaleX(1);
   background-color: #191a23;
   transform-origin: bottom left;
+}
+/* hover-underline-animation-footer */
+.hover-underline-animation-footer {
+  display: inline-block;
+  position: relative;
+}
+.hover-underline-animation-footer::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  background-color: #ffffff;
+  bottom: 0px;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.hover-underline-animation-footer:hover::after {
+  transform: scaleX(1);
+  background-color: #ffffff;
+  transform-origin: bottom left;
+}
+@keyframes showSection {
+  0% {
+    opacity: 0.5;
+    transform: scale(0.7);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.in-view {
+  animation: showSection linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
 }
