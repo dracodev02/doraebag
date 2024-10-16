@@ -1,5 +1,5 @@
 import coverDoraebag from "@/public/coverDoraebag.png";
-import stars from "@/public/stars.png";
+import stars from "@/public/stars.svg";
 const Section1 = () => {
   return (
     <div id="about" className="w-full max-w-desktop px-2 mx-auto">
@@ -12,11 +12,11 @@ const Section1 = () => {
             Stake your tokens, earn lottery tickets, and stand a chance to win
             valuable prizes—staking has never been this exciting.
           </p>
-          <div className="bg-secondary w-fit overflow-hidden px-[50px] max-lg:py-2 max-lg:px-6 text-xl active:scale-[0.96] border-2 border-secondary duration-300 py-5 font-space-grotesk rounded-[14px] cursor-pointer relative text-white group">
+          <div className="hover-button-animation w-fit overflow-hidden px-[50px] max-lg:py-2 max-lg:px-6 text-xl active:scale-[0.96] border-2 border-secondary duration-300 py-5 font-space-grotesk rounded-[14px] cursor-pointer relative text-white group">
             <p className="z-[1] relative duration-500 select-none group-hover:text-secondary">
               Explore
             </p>
-            <div className="absolute top-0 left-0 w-0 duration-500 bg-white rounded-[12px] border-secondary group-hover:w-full h-full transition-all"></div>
+            {/* <div className="absolute top-0 left-0 w-0 duration-500 bg-white rounded-[12px] border-secondary group-hover:w-full h-full transition-all"></div> */}
           </div>
         </div>
         <div className="max-md:absolute left-1/2 max-md:-translate-x-1/2 max-md:-z-[1] max-md:opacity-50 max-md:blur-md max-w-[600px] rounded-2xl overflow-hidden aspect-[600/515] w-full">

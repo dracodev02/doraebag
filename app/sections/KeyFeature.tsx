@@ -2,8 +2,18 @@ const KeyFeature = () => {
   return (
     <div
       id="keyFeatures"
-      className="w-full max-w-desktop mx-auto flex flex-col gap-[87px] px-2 max-md:gap-10"
+      className="w-full max-w-desktop mx-auto flex flex-col gap-[87px] px-2 max-md:gap-10 relative"
     >
+      <img
+        src="/E_logo.png"
+        alt=""
+        className="absolute opacity-35 w-[60%] top-0 -translate-y-1/2 right-0 translate-x-1/3 -z-[1]"
+      />
+      <img
+        src="/stars.svg"
+        alt=""
+        className="absolute opacity-35 w-[60%] top-0 translate-y-full left-0 -translate-x-1/3 -z-[1]"
+      />
       <h3 className="font-semibold in-view font-archivo text-white rounded-[7px] bg-primary text-[40px] leading-[44px] w-fit px-2">
         Key Features
       </h3>

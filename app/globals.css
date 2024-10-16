@@ -19,6 +19,58 @@ body {
     text-wrap: balance;
   }
 }
+
+.hover-button-animation-header {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-button-animation-header::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 100%;
+  background-color: #191a23;
+  bottom: 0px;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  border-radius: 12px;
+}
+
+.hover-button-animation-header:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+} 
+
+.hover-button-animation {
+  display: inline-block;
+  position: relative;
+  background-color: #191a23;
+}
+
+.hover-button-animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 100%;
+  background-color: #ffffff;
+  bottom: 0px;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  border-radius: 12px;
+}
+
+.hover-button-animation:hover::after {
+  transform: scaleX(1);
+  background-color: #ffffff;
+  transform-origin: bottom left;
+}
+
+
 /* hover-underline-animation */
 .hover-underline-animation {
   display: inline-block;

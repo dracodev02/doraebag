@@ -32,19 +32,19 @@ const Footer = () => {
           </div>
           <div className="flex md:items-center gap-6 max-md:gap-2 text-white max-md:flex-col">
             <p
-              className="hover:no-underline hover-underline-animation-footer cursor-pointer"
+              className=" hover-underline-animation-footer cursor-pointer"
               onClick={() => scrollToSection("about")}
             >
               About us
             </p>
             <p
-              className="hover:no-underline hover-underline-animation-footer cursor-pointer"
+              className=" hover-underline-animation-footer cursor-pointer"
               onClick={() => scrollToSection("mechanism")}
             >
               Mechanism
             </p>
             <p
-              className="hover:no-underline hover-underline-animation-footer cursor-pointer"
+              className=" hover-underline-animation-footer cursor-pointer"
               onClick={() => scrollToSection("keyFeatures")}
             >
               Key Features
@@ -58,7 +58,7 @@ const Footer = () => {
         <div className="w-full h-[1px] bg-white"></div>
         <div className="flex items-center gap-10 text-white flex-wrap gap-y-2">
           <p> © 2024 doraEbag. All Rights Reserved.</p>
-          <p className="hover-underline-animation-footer cursor-pointer hover:no-underline">
+          <p className="hover-underline-animation-footer cursor-pointer ">
             Privacy Policy
           </p>
         </div>
