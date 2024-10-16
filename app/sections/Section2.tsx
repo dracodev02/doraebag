@@ -25,7 +25,7 @@ const Section2 = () => {
               Select a pool and stake your tokens to receive lottery tickets.
             </p>
           </div>
-          <div className="max-md:absolute max-md:left-1/2 max-md:-translate-x-1/2  max-md:blur-sm max-md:opacity-50">
+          <div className="max-md:absolute max-md:left-1/2 max-md:hidden max-md:-translate-x-1/2  max-md:blur-sm max-md:opacity-50">
             <img src={tokyo.src} alt="" className="w-[210px]" />
           </div>
         </div>
@@ -45,7 +45,7 @@ const Section2 = () => {
               chances of winning.
             </p>
           </div>
-          <div className="max-md:absolute max-md:left-1/2 max-md:-translate-x-1/2 max-md:blur-sm max-md:opacity-50">
+          <div className="max-md:absolute max-md:left-1/2 max-md:hidden max-md:-translate-x-1/2 max-md:blur-sm max-md:opacity-50">
             <img src={"/decorbox2.png"} alt="" className="w-[210px]" />
           </div>
         </div>
@@ -65,7 +65,7 @@ const Section2 = () => {
               winning tickets receive valuable prizes.
             </p>
           </div>
-          <div className="max-md:absolute max-md:left-1/2 max-md:-translate-x-1/2 max-md:blur-sm max-md:opacity-50">
+          <div className="max-md:absolute max-md:left-1/2 max-md:hidden max-md:-translate-x-1/2 max-md:blur-sm max-md:opacity-50">
             <img src={"/decorbox3.png"} alt="" className="w-[210px]" />
           </div>
         </div>
@@ -84,7 +84,7 @@ const Section2 = () => {
               {`Don’t want to participate anymore? You can withdraw your assets at any time without penalties.`}
             </p>
           </div>
-          <div className="max-md:absolute max-md:left-1/2 max-md:-translate-x-1/2 max-md:blur-sm max-md:opacity-50">
+          <div className="max-md:absolute max-md:left-1/2 max-md:hidden max-md:-translate-x-1/2 max-md:blur-sm max-md:opacity-50">
             <img src={"/decorbox4.png"} alt="" className="w-[210px]" />
           </div>
         </div>

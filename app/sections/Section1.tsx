@@ -40,7 +40,7 @@ const Section1 = () => {
               </p>
             </div>
           </div>
-          <div className="absolute right-[135px] z-[1] h-full top-0 md:aspect-[359/394] max-md:w-full max-md:absolute left-1/2 max-md:-translate-x-1/2  max-md:opacity-50 max-md:blur-md">
+          <div className="absolute max-md:hidden right-[135px] z-[1] h-full top-0 md:aspect-[359/394] max-md:w-full max-md:absolute left-1/2 max-md:-translate-x-1/2  max-md:opacity-50 max-md:blur-md">
             <img src={stars.src} alt="" className="w-full h-full" />
           </div>
         </div>

@@ -9,7 +9,10 @@ const Footer = () => {
       <div className="bg-secondary rounded-b rounded-[45px] px-[60px] py-[50px] max-md:p-5 flex flex-col max-md:gap-8 gap-[50px]">
         <div className="flex md:items-center justify-between gap-4 max-md:flex-col">
           <div className="flex gap-4 items-center">
-            <div className="flex items-center group cursor-pointer">
+            <div
+              onClick={() => scrollToSection("about")}
+              className="flex items-center group cursor-pointer"
+            >
               <p className="text-primary font-bold text-[44px] max-md:text-3xl font-sans">
                 dora
               </p>

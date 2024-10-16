@@ -15,8 +15,11 @@ const Header = () => {
   ];
 
   return (
-    <div className="w-full bg-white px-2 max-w-desktop mx-auto sticky z-[2] top-0 py-4 left-0 h-fit flex justify-between items-center">
-      <div className="flex items-center group cursor-pointer">
+    <div className="z-10 w-full bg-white px-2 max-w-desktop mx-auto sticky top-0 py-4 left-0 h-fit flex justify-between items-center">
+      <div
+        onClick={() => scrollToSection("about")}
+        className="flex items-center group cursor-pointer"
+      >
         <p className="text-primary font-bold text-[44px] max-md:text-3xl font-sans">
           dora
         </p>
