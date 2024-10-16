@@ -5,6 +5,7 @@
 :root {
   --background: #ffffff;
   --foreground: #000000;
+  --archivo: "Archivo", sans-serif;
 }
 
 body {

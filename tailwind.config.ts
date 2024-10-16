@@ -13,7 +13,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         "space-grotesk": ["var(--font-space-grotesk)", "sans-serif"],
-        archivo: ["var(--font-archivo)", "sans-serif"],
+        archivo: ["var(--archivo)", "sans-serif"],
         // "archivo-semi-bold": ["var(--font-archivo-semi-bold)", "sans-serif"],
       },
       colors: {
