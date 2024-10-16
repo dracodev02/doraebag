@@ -18,3 +18,25 @@ body {
     text-wrap: balance;
   }
 }
+/* hover-underline-animation */
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+.hover-underline-animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  background-color: #191a23;
+  bottom: 0px;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  background-color: #191a23;
+  transform-origin: bottom left;
+}

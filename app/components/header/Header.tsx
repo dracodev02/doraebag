@@ -41,7 +41,9 @@ const Header = () => {
               key={item.name}
               className="max-lg:hidden"
             >
-              <p className="hover:underline cursor-pointer">{item.name}</p>
+              <p className="hover:no-underline hover-underline-animation cursor-pointer">
+                {item.name}
+              </p>
             </div>
           );
         })}

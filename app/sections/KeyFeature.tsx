@@ -8,7 +8,7 @@ const KeyFeature = () => {
         Key Features
       </h3>
       <div className="flex flex-wrap items-center justify-center gap-10 max-md:gap-5">
-        <div className="px-[35px] max-md:p-5 pt-10 w-[380px] md:h-[300px] max-md:pb-10 rounded-[45px] border border-secondary hover:shadow-box transition-all gap-7 flex flex-col">
+        <div className="px-[35px] hover:scale-[1.01] duration-300 max-md:p-5 pt-10 w-[380px] md:h-[300px] max-md:pb-10 rounded-[45px] border border-secondary hover:shadow-box transition-all gap-7 flex flex-col">
           <div>
             <p className="bg-primary w-fit rounded-[7px] px-2 font-semibold text-[30px] leading-[32px]">
               Lottery-Based
@@ -23,7 +23,7 @@ const KeyFeature = () => {
             A chance to win big with each draw.
           </p>
         </div>
-        <div className="px-[35px] max-md:p-5 pt-10 w-[380px] md:h-[300px] max-md:pb-10 rounded-[45px] border border-secondary hover:shadow-box transition-all gap-7 flex flex-col">
+        <div className="px-[35px] hover:scale-[1.01] duration-300 max-md:p-5 pt-10 w-[380px] md:h-[300px] max-md:pb-10 rounded-[45px] border border-secondary hover:shadow-box transition-all gap-7 flex flex-col">
           <div>
             <p className="bg-primary w-fit rounded-[7px] px-2 font-semibold text-[30px] leading-[32px]">
               Flexible Staking
@@ -38,7 +38,7 @@ const KeyFeature = () => {
             Stake as much or as little as you want, with no lock-up.
           </p>
         </div>
-        <div className="px-[35px] max-md:p-5 pt-10 w-[380px] md:h-[300px] max-md:pb-10 rounded-[45px] border border-secondary hover:shadow-box transition-all gap-7 flex flex-col">
+        <div className="px-[35px] hover:scale-[1.01] duration-300 max-md:p-5 pt-10 w-[380px] md:h-[300px] max-md:pb-10 rounded-[45px] border border-secondary hover:shadow-box transition-all gap-7 flex flex-col">
           <div>
             <p className="bg-primary w-fit rounded-[7px] px-2 font-semibold text-[30px] leading-[32px]">
               Prize
@@ -53,7 +53,7 @@ const KeyFeature = () => {
             The more you stake, the bigger your potential rewards.
           </p>
         </div>
-        <div className="px-[35px] max-md:p-5 pt-10 w-[380px] md:h-[300px] max-md:pb-10 rounded-[45px] border border-secondary hover:shadow-box transition-all gap-7 flex flex-col">
+        <div className="px-[35px] hover:scale-[1.01] duration-300 max-md:p-5 pt-10 w-[380px] md:h-[300px] max-md:pb-10 rounded-[45px] border border-secondary hover:shadow-box transition-all gap-7 flex flex-col">
           <div>
             <p className="bg-primary w-fit rounded-[7px] px-2 font-semibold text-[30px] leading-[32px]">
               Instant
@@ -68,7 +68,7 @@ const KeyFeature = () => {
             Withdraw your tokens anytime, no penalties.
           </p>
         </div>
-        <div className="px-[35px] max-md:p-5 pt-10 w-[380px] md:h-[300px] max-md:pb-10 rounded-[45px] border border-secondary hover:shadow-box transition-all gap-7 flex flex-col">
+        <div className="px-[35px] hover:scale-[1.01] duration-300 max-md:p-5 pt-10 w-[380px] md:h-[300px] max-md:pb-10 rounded-[45px] border border-secondary hover:shadow-box transition-all gap-7 flex flex-col">
           <div>
             <p className="bg-primary w-fit rounded-[7px] px-2 font-semibold text-[30px] leading-[32px]">
               Comprehensive

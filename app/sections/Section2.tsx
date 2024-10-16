@@ -11,7 +11,7 @@ const Section2 = () => {
       </h3>
       <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-10 max-md:gap-5">
         {/* box1 */}
-        <div className="p-[50px] max-md:p-5 h-[307px] max-sm:h-[200px] rounded-[45px] items-center border border-secondary hover:shadow-box transition-all gap-10 flex">
+        <div className="p-[50px] hover:scale-[1.01] duration-300 max-md:p-5 h-[307px] max-sm:h-[200px] rounded-[45px] items-center border border-secondary hover:shadow-box transition-all gap-10 flex">
           <div className="flex flex-col justify-between h-full">
             <div className="z-[1]">
               <p className="bg-primary w-fit rounded-[7px] px-2 font-semibold text-[30px] leading-[32px]">
@@ -30,7 +30,7 @@ const Section2 = () => {
           </div>
         </div>
         {/* box2 */}
-        <div className="p-[50px] max-md:p-5 h-[307px] max-sm:h-[200px] rounded-[45px] items-center border border-secondary hover:shadow-box transition-all gap-10 flex bg-primary">
+        <div className="p-[50px] hover:scale-[1.01] duration-300 max-md:p-5 h-[307px] max-sm:h-[200px] rounded-[45px] items-center border border-secondary hover:shadow-box transition-all gap-10 flex bg-primary">
           <div className="flex flex-col justify-between h-full">
             <div className="z-[1]">
               <p className="bg-white w-fit rounded-[7px] px-2 font-semibold text-[30px] leading-[32px]">
@@ -50,7 +50,7 @@ const Section2 = () => {
           </div>
         </div>
         {/* box3 */}
-        <div className="p-[50px] max-md:p-5 h-[307px] max-sm:h-[200px] rounded-[45px] items-center border border-secondary bg-secondary hover:shadow-box transition-all gap-10 flex">
+        <div className="p-[50px] hover:scale-[1.01] duration-300 max-md:p-5 h-[307px] max-sm:h-[200px] rounded-[45px] items-center border border-secondary bg-secondary hover:shadow-box transition-all gap-10 flex">
           <div className="flex flex-col justify-between h-full">
             <div className="z-[1]">
               <p className="bg-white w-fit rounded-[7px] px-2 font-semibold text-[30px] leading-[32px]">
@@ -70,7 +70,7 @@ const Section2 = () => {
           </div>
         </div>
         {/* box4 */}
-        <div className="p-[50px] max-md:p-5 h-[307px] max-sm:h-[200px] rounded-[45px] items-center border border-secondary hover:shadow-box transition-all gap-10 flex">
+        <div className="p-[50px] hover:scale-[1.01] duration-300 max-md:p-5 h-[307px] max-sm:h-[200px] rounded-[45px] items-center border border-secondary hover:shadow-box transition-all gap-10 flex">
           <div className="flex flex-col justify-between h-full">
             <div className="z-[1]">
               <p className="bg-primary w-fit rounded-[7px] px-2 font-semibold text-[30px] leading-[32px]">
