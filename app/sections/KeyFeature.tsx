@@ -5,9 +5,9 @@ const KeyFeature = () => {
       className="w-full max-w-desktop mx-auto flex flex-col gap-[87px] px-2 max-md:gap-10 relative"
     >
       <img
-        src="/E_logo.png"
+        src="/E_logo_decor.png"
         alt=""
-        className="absolute opacity-35 w-[60%] top-0 -translate-y-1/2 right-0 translate-x-1/3 -z-[1]"
+        className="absolute opacity-35 w-[50%] top-0 -translate-y-1/2 right-0 -z-[1]"
       />
       <img
         src="/stars.svg"
